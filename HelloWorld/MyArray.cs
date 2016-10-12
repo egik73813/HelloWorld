@@ -8,7 +8,7 @@ namespace HelloWorld
         private int ArraySize { get; set; } = 10; //by default 
         private int Count { get; set; } = 0;
         private T[] Array { get; set; }
-        private int index = -1;
+        private int index = 0;
 
         public MyArray()
         {
